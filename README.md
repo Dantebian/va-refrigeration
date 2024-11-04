@@ -17,7 +17,7 @@ cd va-refrigeration
 cp .env.example .env
 composer install
 php artisan migrate
-php artisan db:seed --class="ProductType"
+php artisan db:seed --class="ProductTypeSeeder"
 npm install 
 npm run dev
 
